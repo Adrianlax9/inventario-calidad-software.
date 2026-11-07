@@ -32,11 +32,11 @@ Resultados originales: 8/8 verificaciones, 200/200 respuestas correctas, p95 25,
 - `index.html`: interfaz accesible por navegador.
 - `tests/run_tests.py`: dos casos automatizados y cálculo de tres métricas.
 - `evidencias/`: resultados, log, resumen y capturas originales.
-- `MATRIZ_REQUISITOS.md`: trazabilidad a la guía.
+  
 
 ## Publicar en GitHub
 
-Publicación pendiente; no existe un enlace remoto de esta entrega. Crear un repositorio vacío en la cuenta propia, sin README automático. Esta carpeta incluye un repositorio Git local con un commit. Desde ella, ejecutar los comandos siguientes sustituyendo la dirección por la URL REAL proporcionada por GitHub:
+Publicación ok
 
 ```sh
 git remote add origin URL_REAL_DEL_REPOSITORIO
