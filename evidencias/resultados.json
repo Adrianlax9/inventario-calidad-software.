@@ -1,0 +1,1284 @@
+{
+  "fecha": "2026-11-07T17:14:19.007343+00:00",
+  "entorno": "Windows-11-10.0.26200-SP0",
+  "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "cp01": [
+    {
+      "verificacion": "Alta producto",
+      "esperado": 201,
+      "obtenido": 201,
+      "aprobado": true
+    },
+    {
+      "verificacion": "SKU duplicado",
+      "esperado": 409,
+      "obtenido": 409,
+      "aprobado": true
+    },
+    {
+      "verificacion": "Entrada +5",
+      "esperado": 200,
+      "obtenido": 200,
+      "aprobado": true
+    },
+    {
+      "verificacion": "Salida -4",
+      "esperado": 200,
+      "obtenido": 200,
+      "aprobado": true
+    },
+    {
+      "verificacion": "Rechazo salida -12",
+      "esperado": 400,
+      "obtenido": 400,
+      "aprobado": true
+    },
+    {
+      "verificacion": "Stock final conservado",
+      "esperado": [
+        {
+          "sku": "P001",
+          "nombre": "Teclado",
+          "cantidad": 11
+        }
+      ],
+      "obtenido": [
+        {
+          "sku": "P001",
+          "nombre": "Teclado",
+          "cantidad": 11
+        }
+      ],
+      "aprobado": true
+    },
+    {
+      "verificacion": "Rechazo cantidad negativa",
+      "esperado": 400,
+      "obtenido": 400,
+      "aprobado": true
+    },
+    {
+      "verificacion": "Rechazo cantidad decimal",
+      "esperado": 400,
+      "obtenido": 400,
+      "aprobado": true
+    }
+  ],
+  "cp02": {
+    "n": 200,
+    "calentamiento": 10,
+    "clientes": 1,
+    "umbral_p95_ms": 100,
+    "p95_ms": 2.0802998915314674,
+    "media_ms": 1.8348430132027715,
+    "correctas": 200,
+    "aprobado": true
+  },
+  "metricas": {
+    "verificaciones_funcionales_pct": 100.0,
+    "p95_ms": 2.0802998915314674,
+    "respuestas_correctas_pct": 100.0
+  },
+  "muestras": [
+    {
+      "iteracion": 1,
+      "ms": 1.3230000622570515,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 2,
+      "ms": 1.3774000108242035,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 3,
+      "ms": 1.3679000549018383,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 4,
+      "ms": 1.5461998991668224,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 5,
+      "ms": 1.6101999208331108,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 6,
+      "ms": 1.4659001026302576,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 7,
+      "ms": 1.461199950426817,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 8,
+      "ms": 1.551800174638629,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 9,
+      "ms": 1.6596999485045671,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 10,
+      "ms": 2.0838999189436436,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 11,
+      "ms": 1.780700171366334,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 12,
+      "ms": 1.640800153836608,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 13,
+      "ms": 2.2454001009464264,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 14,
+      "ms": 1.6948000993579626,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 15,
+      "ms": 23.097199853509665,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 16,
+      "ms": 2.1776999346911907,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 17,
+      "ms": 1.7288001254200935,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 18,
+      "ms": 1.5267000999301672,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 19,
+      "ms": 1.5024999156594276,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 20,
+      "ms": 1.519500045105815,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 21,
+      "ms": 1.454999903216958,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 22,
+      "ms": 1.4778999611735344,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 23,
+      "ms": 1.5079001896083355,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 24,
+      "ms": 1.508000073954463,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 25,
+      "ms": 1.5936000272631645,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 26,
+      "ms": 1.5092999674379826,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 27,
+      "ms": 1.9731000065803528,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 28,
+      "ms": 1.5382999554276466,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 29,
+      "ms": 1.5463000163435936,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 30,
+      "ms": 1.865800004452467,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 31,
+      "ms": 1.6667000018060207,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 32,
+      "ms": 1.6933998558670282,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 33,
+      "ms": 1.5801999252289534,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 34,
+      "ms": 1.5054000541567802,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 35,
+      "ms": 1.4547000173479319,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 36,
+      "ms": 1.735299825668335,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 37,
+      "ms": 2.2185000125318766,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 38,
+      "ms": 1.862300094217062,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 39,
+      "ms": 1.4486999716609716,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 40,
+      "ms": 1.5306000132113695,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 41,
+      "ms": 1.4775998424738646,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 42,
+      "ms": 1.5171000268310308,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 43,
+      "ms": 1.4917999505996704,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 44,
+      "ms": 1.4996000099927187,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 45,
+      "ms": 1.4792999718338251,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 46,
+      "ms": 1.4800000935792923,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 47,
+      "ms": 1.757299993187189,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 48,
+      "ms": 1.7882001120597124,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 49,
+      "ms": 1.5295997727662325,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 50,
+      "ms": 1.5255000907927752,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 51,
+      "ms": 1.5231999568641186,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 52,
+      "ms": 1.3957000337541103,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 53,
+      "ms": 1.4847998972982168,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 54,
+      "ms": 1.5235000755637884,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 55,
+      "ms": 1.4770000707358122,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 56,
+      "ms": 1.5267000999301672,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 57,
+      "ms": 1.539100194349885,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 58,
+      "ms": 2.0862000528723,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 59,
+      "ms": 1.650199992582202,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 60,
+      "ms": 1.542000100016594,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 61,
+      "ms": 1.5835000667721033,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 62,
+      "ms": 1.5169000253081322,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 63,
+      "ms": 1.4539000112563372,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 64,
+      "ms": 1.5306000132113695,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 65,
+      "ms": 1.543200109153986,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 66,
+      "ms": 1.5887001063674688,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 67,
+      "ms": 1.4871000312268734,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 68,
+      "ms": 1.659400062635541,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 69,
+      "ms": 1.8565000500530005,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 70,
+      "ms": 1.3723000884056091,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 71,
+      "ms": 1.2541001196950674,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 72,
+      "ms": 1.281500095501542,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 73,
+      "ms": 1.34049984626472,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 74,
+      "ms": 1.2986999936401844,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 75,
+      "ms": 1.2529999949038029,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 76,
+      "ms": 1.3702001888304949,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 77,
+      "ms": 1.308700069785118,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 78,
+      "ms": 1.4411001466214657,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 79,
+      "ms": 1.3268000911921263,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 80,
+      "ms": 1.793100032955408,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 81,
+      "ms": 1.6660999972373247,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 82,
+      "ms": 1.4813998714089394,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 83,
+      "ms": 1.3307000044733286,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 84,
+      "ms": 1.406499883159995,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 85,
+      "ms": 1.3655000366270542,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 86,
+      "ms": 1.5742999967187643,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 87,
+      "ms": 1.6359000001102686,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 88,
+      "ms": 4.533899948000908,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 89,
+      "ms": 2.061199862509966,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 90,
+      "ms": 17.039000056684017,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 91,
+      "ms": 1.4312001876533031,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 92,
+      "ms": 1.4516999945044518,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 93,
+      "ms": 1.549700042232871,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 94,
+      "ms": 1.5668999403715134,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 95,
+      "ms": 1.516199903562665,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 96,
+      "ms": 1.5239000786095858,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 97,
+      "ms": 1.5122001059353352,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 98,
+      "ms": 1.4929999597370625,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 99,
+      "ms": 1.5247000847011805,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 100,
+      "ms": 1.5827000606805086,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 101,
+      "ms": 2.0802998915314674,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 102,
+      "ms": 1.7143001314252615,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 103,
+      "ms": 1.5090000815689564,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 104,
+      "ms": 1.5106000937521458,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 105,
+      "ms": 1.471600029617548,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 106,
+      "ms": 1.5704999677836895,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 107,
+      "ms": 1.4573000371456146,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 108,
+      "ms": 1.487900037318468,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 109,
+      "ms": 1.4822999946773052,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 110,
+      "ms": 1.7151001375168562,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 111,
+      "ms": 1.902399817481637,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 112,
+      "ms": 1.5483000315725803,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 113,
+      "ms": 1.498199999332428,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 114,
+      "ms": 1.509200083091855,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 115,
+      "ms": 1.470400020480156,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 116,
+      "ms": 1.5048999339342117,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 117,
+      "ms": 1.5418000984936953,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 118,
+      "ms": 1.547300023958087,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 119,
+      "ms": 1.4920998364686966,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 120,
+      "ms": 1.8934998661279678,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 121,
+      "ms": 1.5960999298840761,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 122,
+      "ms": 1.6477999743074179,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 123,
+      "ms": 1.5124999918043613,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 124,
+      "ms": 1.5096000861376524,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 125,
+      "ms": 1.4378000050783157,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 126,
+      "ms": 1.4304001815617085,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 127,
+      "ms": 1.5254002064466476,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 128,
+      "ms": 1.4572001527994871,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 129,
+      "ms": 1.4731998089700937,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 130,
+      "ms": 1.5256998594850302,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 131,
+      "ms": 1.5646000392735004,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 132,
+      "ms": 1.6638000961393118,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 133,
+      "ms": 1.9125000108033419,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 134,
+      "ms": 1.5004000160843134,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 135,
+      "ms": 1.4157001860439777,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 136,
+      "ms": 1.550799934193492,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 137,
+      "ms": 1.4784999657422304,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 138,
+      "ms": 1.5008000191301107,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 139,
+      "ms": 1.5060000587254763,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 140,
+      "ms": 1.4816001057624817,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 141,
+      "ms": 1.4926001895219088,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 142,
+      "ms": 1.4243999030441046,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 143,
+      "ms": 1.908699981868267,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 144,
+      "ms": 1.6743999440222979,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 145,
+      "ms": 1.4678998850286007,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 146,
+      "ms": 1.5205999370664358,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 147,
+      "ms": 1.4978998806327581,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 148,
+      "ms": 1.546700019389391,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 149,
+      "ms": 1.4842001255601645,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 150,
+      "ms": 1.540800090879202,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 151,
+      "ms": 1.4180999714881182,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 152,
+      "ms": 1.5684000682085752,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 153,
+      "ms": 1.5625001396983862,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 154,
+      "ms": 1.7847998533397913,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 155,
+      "ms": 1.5453998930752277,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 156,
+      "ms": 1.5354000497609377,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 157,
+      "ms": 1.5895001124590635,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 158,
+      "ms": 1.7683000769466162,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 159,
+      "ms": 1.6928999684751034,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 160,
+      "ms": 1.6533001326024532,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 161,
+      "ms": 1.6628000885248184,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 162,
+      "ms": 1.6419000457972288,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 163,
+      "ms": 1.916100038215518,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 164,
+      "ms": 2.036399906501174,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 165,
+      "ms": 1.8161998596042395,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 166,
+      "ms": 1.7061999533325434,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 167,
+      "ms": 1.5084999613463879,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 168,
+      "ms": 1.4096000231802464,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 169,
+      "ms": 1.4303000643849373,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 170,
+      "ms": 1.5403998550027609,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 171,
+      "ms": 1.4166000764817,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 172,
+      "ms": 1.5481999143958092,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 173,
+      "ms": 1.5664000529795885,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 174,
+      "ms": 1.8256001640111208,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 175,
+      "ms": 14.647499890998006,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 176,
+      "ms": 2.164300065487623,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 177,
+      "ms": 1.6683998983353376,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 178,
+      "ms": 1.5139998868107796,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 179,
+      "ms": 1.235799863934517,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 180,
+      "ms": 1.2836998794227839,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 181,
+      "ms": 1.369300065562129,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 182,
+      "ms": 1.440499909222126,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 183,
+      "ms": 1.240300014615059,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 184,
+      "ms": 1.325499964877963,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 185,
+      "ms": 1.374599989503622,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 186,
+      "ms": 1.4661001041531563,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 187,
+      "ms": 1.659400062635541,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 188,
+      "ms": 1.9775999244302511,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 189,
+      "ms": 1.5018999110907316,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 190,
+      "ms": 1.4831000007689,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 191,
+      "ms": 1.5041001606732607,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 192,
+      "ms": 1.4919000677764416,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 193,
+      "ms": 1.452099997550249,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 194,
+      "ms": 1.4372998848557472,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 195,
+      "ms": 1.5064999461174011,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 196,
+      "ms": 1.474600052461028,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 197,
+      "ms": 1.617100089788437,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 198,
+      "ms": 1.7290001269429922,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 199,
+      "ms": 1.7574999947100878,
+      "status": 200,
+      "correcto": true
+    },
+    {
+      "iteracion": 200,
+      "ms": 1.513900002464652,
+      "status": 200,
+      "correcto": true
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+CP01 funcional: 8/8 verificaciones
+CP02 rendimiento: {'n': 200, 'calentamiento': 10, 'clientes': 1, 'umbral_p95_ms': 100, 'p95_ms': 2.0802998915314674, 'media_ms': 1.8348430132027715, 'correctas': 200, 'aprobado': True}
+Métricas: {'verificaciones_funcionales_pct': 100.0, 'p95_ms': 2.0802998915314674, 'respuestas_correctas_pct': 100.0}
